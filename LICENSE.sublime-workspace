@@ -1,0 +1,511 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"require_relative"
+			],
+			[
+				"to",
+				"to_a"
+			],
+			[
+				"get",
+				"get_2d_matrix"
+			],
+			[
+				"init_",
+				"init_dim_val"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"spar",
+				"sparse_m"
+			],
+			[
+				"ins",
+				"insert_at"
+			],
+			[
+				"sp",
+				"sparse_m"
+			],
+			[
+				"de",
+				"dense_m"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"ens",
+				"ensure"
+			],
+			[
+				"ar",
+				"array_to_sparse"
+			],
+			[
+				"den",
+				"denseM"
+			],
+			[
+				"d",
+				"do"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"scalar",
+				"scalar_add_sub"
+			],
+			[
+				"scalar_m",
+				"scalar_mult_div"
+			],
+			[
+				"sparse_matrix_",
+				"sparse_matrix_add_sub"
+			],
+			[
+				"values",
+				"values_hash"
+			],
+			[
+				"has",
+				"values_hash"
+			],
+			[
+				"posit",
+				"position"
+			],
+			[
+				"dim",
+				"dimension"
+			],
+			[
+				"sca",
+				"scalar_multiplication"
+			],
+			[
+				"S",
+				"Strangelove"
+			],
+			[
+				"int",
+				"insert"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"G",
+				"Gump"
+			],
+			[
+				"key",
+				"key1"
+			],
+			[
+				"assert",
+				"assert_equal"
+			],
+			[
+				"post_sp",
+				"post_sparse_matrix_subtraction"
+			],
+			[
+				"pre_",
+				"pre_sparse_matrix_subtraction"
+			],
+			[
+				"ret",
+				"retval"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"sparse",
+				"SparseMatrix"
+			],
+			[
+				"colu",
+				"column_for_corresponding_values"
+			],
+			[
+				"pre",
+				"prePower"
+			],
+			[
+				"postScal",
+				"postScalarDivision"
+			],
+			[
+				"preSc",
+				"preScalarDivision"
+			],
+			[
+				"postD",
+				"postDivision"
+			],
+			[
+				"postMu",
+				"postScalarMultiplication"
+			],
+			[
+				"postSc",
+				"postScalarSubstration"
+			],
+			[
+				"preScal",
+				"preScalarSubstraction"
+			],
+			[
+				"postS",
+				"postSubstraction"
+			],
+			[
+				"preD",
+				"preDeterminant"
+			],
+			[
+				"pos",
+				"postScalarDivision"
+			],
+			[
+				"preS",
+				"preScalarDivision"
+			],
+			[
+				"post",
+				"postSubstraction"
+			],
+			[
+				"di",
+				"dimension"
+			],
+			[
+				"col",
+				"column_for_corresponding_values"
+			],
+			[
+				"size",
+				"sizeOfTable"
+			],
+			[
+				"sie",
+				"sizeOfTable"
+			],
+			[
+				"p",
+				"psize"
+			],
+			[
+				"ll_",
+				"ll_insert"
+			],
+			[
+				"siz",
+				"sizeof"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Reem/Desktop/shell-wrapper-and-system-programming-tools/Shell",
+		"/Users/Reem/Documents/School/Year 4/ECE 315/sparsematrix-ruby/assignment1_main.rb",
+		"/Users/Reem/Desktop/sparsematrix-ruby/SparseMatrix.rb",
+		"/Users/Reem/Desktop/sparsematrix-ruby/NDimensionalMatrix.rb",
+		"/Users/Reem/Desktop/sparsematrix-ruby/DenseMatrix.rb",
+		"/Users/Reem/Desktop/What implementation approach are you using (reuse",
+		"/Users/Reem/Desktop/test.sql",
+		"/Users/Reem/Desktop/sparsematrix-ruby/TriDiagonalSparse.rb",
+		"/Users/Reem/Desktop/sparsematrix-ruby/TriDiagonal.rb",
+		"/Users/Reem/Desktop/sparsematrix-ruby/TriDiagonal.fb",
+		"/Users/Reem/Desktop/SparseMatrix.rb",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/lab1_challenge/README.txt",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/misc/q7.txt",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/misc/q6.txt",
+		"/Users/Reem/Downloads/lab3/README",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/misc/q1.txt",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/misc/q3.txt",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/Assignment1/misc/q2.txt",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/q2.txt",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 391/Quiz 2 data",
+		"/Users/Reem/Desktop/Assignment 1/h02_team3/misc/q1.txt",
+		"/Users/Reem/Desktop/Assignment 1/queries",
+		"/Users/Reem/Downloads/sqlite-src-3140100/practice.c",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/ECE322PROJ/tests/modified_app_files/login_mod.py",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/project_presentation/index.html",
+		"/Users/Reem/Desktop/assignment3/simulator.c",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/ECE322PROJ/software/test_db_files/test_data.sql",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/ECE322PROJ/software/database_files/proj_data.sql",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/ECE322PROJ/software/database_files/proj_tables.sql",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/ECE322PROJ/tests/test_db_files/test_data.sql",
+		"/Users/Reem/Desktop/simulator.c",
+		"/Users/Reem/Desktop/heapsort.c",
+		"/Users/Reem/Documents/School/Year 4/ECE 322/pict/test.txt",
+		"/Users/Reem/Desktop/ECE322PROJ/tests/test_db_files/test_data.sql",
+		"/Users/Reem/Desktop/ECE322PROJ/tests/test_data.sql",
+		"/Users/Reem/Desktop/ECE322PROJ/tests/database_tests.py",
+		"/Users/Reem/Desktop/ECE322PROJ/tests/test.db",
+		"/Users/Reem/Desktop/ECE322PROJ/tests/emptyDB.db",
+		"/Users/Reem/Desktop/ECE322PROJ/software/database_files/proj_data.sql",
+		"/Users/Reem/Desktop/ECE322PROJ/software/database_files/proj_tables.sql",
+		"/Users/Reem/Desktop/Youber/app/src/main/java/com/youber/cmput301f16t15/youber/ElasticSearchController.java",
+		"/Users/Reem/Desktop/Youber/app/src/main/java/com/youber/cmput301f16t15/youber/ElasticSearchRequest.java",
+		"/Users/Reem/Desktop/BisectTest.java",
+		"/Users/Reem/Documents/workspace/lab4/src/HTTP Testing/test/HTTPtests.js",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/TestApp2/app/build/generated/source/r/androidTest/debug/android/support/test/espresso/R.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/TestApp2/app/build/generated/source/r/androidTest/debug/android/support/test/rule/R.java",
+		"/Users/Reem/Downloads/lab7/README.txt",
+		"/Users/Reem/Downloads/lab7/daemon.c",
+		"/Users/Reem/Downloads/lab7-2/daemon.c",
+		"/Users/Reem/Desktop/CMPUT 379/Lab 6/solution to exercise.c",
+		"/Users/Reem/Desktop/CMPUT 379/Lab 6/demos/fork/fork.c",
+		"/Users/Reem/Documents/workspace/lab4/src/HTTP Testing/test/api_tests.js",
+		"/Users/Reem/Downloads/Lab 4/HTTP Testing/test/api_tests.js",
+		"/Users/Reem/Downloads/testServer.c",
+		"/Users/Reem/Desktop/CMPUT 379/Lab 6/demos/select/demo2/server.c",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/install-android-studio.sh",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/project1.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/README.txt",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/searchFlight.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/availableflights.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/bookings.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/goodconnections.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/listBookings.py",
+		"/Users/Reem/Downloads/_.sql",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/settings.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/prjcode/updateTime.py",
+		"/Users/Reem/Documents/School/Year 3/CMPUT 291/alllqueries.sql",
+		"/Users/Reem/Downloads/lab5/server.c",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/Youber-master/app/src/main/AndroidManifest.xml",
+		"/Users/Reem/Downloads/Drone-2.py",
+		"/Users/Reem/Downloads/Drone.py",
+		"/Users/Reem/Desktop/Assignment1Group06 2/mem_mod1.c",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/MainActivity.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/ViewCompletedHabitsActivity.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/NoticeDialogFragment.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/HabitList.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/HabitDetailActivity.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/Habit.java",
+		"/Users/Reem/Documents/School/Year 4/CMPUT 301/rmaarouf-HabitTracker/app/src/main/java/com/example/reem/rmaarouf_habittracker/FileManager.java",
+		"/Users/Reem/Desktop/Assignment1Group06/memlayout.h",
+		"/Users/Reem/Downloads/rmaarouf-HabitTracker_old/app/src/main/java/com/example/reem/rmaarouf_habittracker/Habit.java",
+		"/Applications/Dia.app/Contents/Resources/bin/dia",
+		"/Users/Reem/Desktop/mem layout",
+		"/Users/Reem/Documents/School/Git info ",
+		"/Users/Reem/Desktop/Assignment 1",
+		"/Users/Reem/Documents/School/CCID: rmaarouf.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pp",
+			"getValues",
+			"postDivision",
+			"preDivision",
+			"postMultiplication",
+			"preMultiplication",
+			"postSubstraction",
+			"preSubstraction",
+			"preSub",
+			"postAddition",
+			"preAddition",
+			"post_p",
+			"end",
+			"...>",
+			"flow",
+			"unsigned",
+			"int",
+			"10010",
+			"93",
+			"fcntl",
+			"SO_",
+			"yes",
+			"limit",
+			"stout"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LICENSE.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"login",
+				"tests/modified_app_files/login_mod.py"
+			],
+			[
+				"nursem",
+				"tests/modified_app_files/nurse_mod.py"
+			],
+			[
+				"login.m",
+				"tests/modified_app_files/login_mod.py"
+			],
+			[
+				"branch",
+				"tests/branch_tests.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
