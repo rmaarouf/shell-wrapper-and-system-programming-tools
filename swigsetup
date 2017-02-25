@@ -1,0 +1,4 @@
+swig -ruby timed_message.i
+gcc -c timed_message.c -fPIC
+gcc -c timed_message_wrap.c -I/home/aaron/.rvm/rubies/ruby-2.3.3/include/ruby-2.3.0 -fPIC
+gcc -shared timed_message.o timed_message_wrap.o -o TimedMessage.so
