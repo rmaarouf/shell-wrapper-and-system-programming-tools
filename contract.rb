@@ -47,5 +47,10 @@ def post_parse_command()
 	shell_invariant
 end
 
+def pre_timed_delay_message(milliseconds)
+	assert(milliseconds =~ /^\d+$/ ? true:false, 'invalid delay time')
+end
 
-
+def post_timed_delay_message(parent_pid)
+	assert(Process.pid() != parent_pid, 'parent process still alive' )
+end

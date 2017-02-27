@@ -1,6 +1,9 @@
 require 'inline'
+require 'test/unit'
+require_relative 'contract'
 
 module TimedMessage
+  include Test::Unit::Assertions
   inline do |builder|
     builder.include '<unistd.h>'
     builder.include '<time.h>'
@@ -21,4 +24,12 @@ module TimedMessage
     puts message
   end
 
+  def timed_delayed_message_ruby(milliseconds)
+    pre_timed_delay_message(milliseconds)
+    parent_pid = Process.pid()
+    milliseconds = milliseconds.to_i
+    timed_delayed_message(milliseconds)
+    post_timed_delay_message(parent_pid)
+
+  end
 end
