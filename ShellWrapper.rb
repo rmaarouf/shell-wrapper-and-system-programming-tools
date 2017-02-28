@@ -1,6 +1,6 @@
 #require 'Kernel'
 
-
+$SAFE=1
 
 class ShellWrapper
 
