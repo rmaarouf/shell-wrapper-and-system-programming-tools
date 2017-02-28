@@ -1,6 +1,7 @@
-#require 'Kernel'
 require_relative 'contract'
 require 'test/unit'
+
+$SAFE=1
 
 class ShellWrapper
 	include Test::Unit::Assertions
