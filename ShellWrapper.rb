@@ -1,12 +1,13 @@
-#require 'Kernel'
-
-$SAFE=1
+require_relative 'contract'
+require 'test/unit'
 
 class ShellWrapper
+	include Test::Unit::Assertions
 
 	def initialize
 		@arr=Array.new
 		@errno_state=:NOERROR
+		post_invariant
 	end
 
 	def main
@@ -14,22 +15,22 @@ class ShellWrapper
 		while
 			commands = get_command
 			parse_command(commands)
-			#create_manage_child(commands)
-			# parent waits for child to finish
-			# child: change job
-			# parent: reports results
 			print get_errno_message+"   \\>"
 		end
 	end
 
 	def create_manage_child(commands)
+		pre_create_manage_child(commands)
 		read,write=IO.pipe
 
 		pid = fork {
-			read.close
-			value=execute(commands)
-			Marshal.dump(value,write)
-			exit!(0)
+			proc{
+				# $SAFE=4
+				read.close
+				value=execute(commands)
+				Marshal.dump(value,write)
+				exit!(0)
+			}.call
 		}
 		Process.wait
 		write.close
@@ -37,14 +38,15 @@ class ShellWrapper
 		raise "child is empty" if myval.empty?
 		myval=Marshal.load(myval)
 		set_errno(convert_errno(myval))
-		# puts eval("Errno::#{myval}.new.message")
 		@arr << pid
-		# waitpid(pid, Process::WHOHANG)
-
+		post_create_manage_child
 	end
 
 	def convert_errno(myval)
-		Errno.constants.select{|x| eval("Errno::#{x}::Errno")==myval}[0]
+		pre_convert_errno(myval)
+		new_errno = Errno.constants.select{|x| eval("Errno::#{x}::Errno")==myval}[0]
+		post_convert_errno(new_errno)
+		return new_errno
 	end
 
 	def set_errno(errno_val)
@@ -64,18 +66,18 @@ class ShellWrapper
 	end
 
 	def execute(commands)
-		# system("bash","-c", commands+" > /dev/null")
-		# blah=" > /dev/null 2>&1"
-		myval=system commands #+blah
-		myval=$?.exitstatus
-		# puts myval
+		pre_execute(commands)
 
-		# myval=Errno.constants.select{|x| eval("Errno::#{x}::Errno")==myval}[0]
-		# puts myval.new.message
+		myval=system("bash","-c", commands) #+blah
+		myval=$?.exitstatus
+
+		post_execute(myval)
+		return myval
+
 	end
 
 	def parse_command(commands)
-
+		pre_parse_command(commands)
 		commands=commands.chomp
 		case
 		when /\Acd /.match(commands)
@@ -92,6 +94,8 @@ class ShellWrapper
 		else
 			create_manage_child(commands)
 		end
+
+		post_parse_command
 	end
 end
 
