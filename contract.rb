@@ -54,3 +54,29 @@ end
 def post_timed_delay_message(parent_pid)
 	assert(Process.pid() != parent_pid, 'parent process still alive' )
 end
+
+def pre_creation(duration, list_filenames)
+	assert(duration.respond_to?(:round), 'invalid delay time')
+	assert((list_filenames.respond_to?(:to_a) or list_filenames.respond_to?(:chomp)), 'invalid list of filenames')	
+end
+
+def post_creation(file_name_hash)
+	assert(file_name_hash.empty?, 'list of file names not empty')
+end
+
+def pre_alter(duration, list_filenames)
+	assert(duration.respond_to?(:round), 'invalid delay time')
+	assert((list_filenames.respond_to?(:to_a) or list_filenames.respond_to?(:chomp)), 'invalid list of filenames')	
+end
+
+def post_alter(file_name_hash)
+	assert(file_name_hash.empty?, 'list of file names not empty')
+end
+def pre_destroy(duration, list_filenames)
+	assert(duration.respond_to?(:round), 'invalid delay time')
+	assert((list_filenames.respond_to?(:to_a) or list_filenames.respond_to?(:chomp)), 'invalid list of filenames')	
+end
+
+def post_destroy(file_name_hash)
+	assert(file_name_hash.empty?, 'list of file names not empty')
+end

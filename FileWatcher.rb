@@ -1,8 +1,12 @@
 require_relative 'TimedMessage'
+require 'test/unit'
+require_relative 'contract'
 
 module FileWatcher
+  include Test::Unit::Assertions
   include TimedMessage
   def creation(duration, list_filenames)
+    pre_creation(duration, list_filenames)
     file_name_hash=Hash.new
     list_filenames.each do |filename|
       file_name_hash[filename]= Dir.glob("/**/"+ filename).size
@@ -19,6 +23,7 @@ module FileWatcher
           end
         end
     end
+    post_creation(file_name_hash)
   }
   end
 
@@ -26,6 +31,7 @@ module FileWatcher
 
 
   def alter(duration, list_filenames)
+    pre_alter(duration, list_filenames)
     # HAVE TO CHECK THAT FILES DON"T EXIST
     time_check=Time.new
     # pre con
@@ -44,11 +50,13 @@ module FileWatcher
           end
         end
     end
+    post_alter(file_name_hash)
   }
 
   end
 
   def destroy(duration, list_filenames)
+    pre_destroy(duration, list_filenames)
     file_name_hash=Hash.new
     list_filenames.each do |filename|
       file_name_hash[filename]= Dir.glob("/**/"+ filename).size
@@ -65,6 +73,7 @@ module FileWatcher
           end
         end
     end
+    post_destroy(file_name_hash)
   }
   end
 end
